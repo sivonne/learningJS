@@ -1,9 +1,9 @@
-#burger{
-
+#content{
 }
 #offscreen-nav ul{
   list-style-type: none;
   font-size: 2em;
+  font-family:sans-serif;
 }
 #offscreen-nav{
   background: white;
@@ -11,14 +11,13 @@
   /*display: none;*/
   top:10;
   left:0;
-  padding:5%;
   width:0%;
   overflow:hidden;
 
  }
 #closed-button{
   float:right;
-  padding: 5px;
+  padding-right: 100px;
   width:0%;
 }
 #more-info{
@@ -26,12 +25,13 @@
 }
 
 #tooltip{
-  display:flex;
+  display:inline-block;
   align-items: center;
   justify-content: center;
   background: white;
   width:150px;
   height:150px;
+  left:15%;
   border: 1px solid;
   box-shadow: 2px 2px 2px 2px gray;
   position:absolute;

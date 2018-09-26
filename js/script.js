@@ -13,6 +13,7 @@ burger.addEventListener('click', function(){
   content.style.opacity = '0.1';
 });
 
+
 closeBtn.addEventListener('click', function(){
   mobileNav.style.width = '0%';
   content.style.opacity = '1';
